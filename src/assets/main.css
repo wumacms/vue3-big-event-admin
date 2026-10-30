@@ -1,0 +1,34 @@
+/* 全局基础样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  font-family:
+    'Helvetica Neue',
+    Helvetica,
+    'PingFang SC',
+    'Hiragino Sans GB',
+    'Microsoft YaHei',
+    Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f4f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 通用卡片页脚（分页等） */
+.page-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0 0;
+}
