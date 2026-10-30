@@ -2,6 +2,10 @@
 
 大事件后台管理系统，基于 Vue 3 + Vite + TypeScript + Pinia + Vue Router + Element Plus + wangEditor。
 
+## 效果图
+
+![效果图](./docs/images/1.avif)
+
 ## 功能
 
 - 登录 / 注册（表单校验、token 持久化、路由守卫）
